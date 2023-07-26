@@ -5,7 +5,7 @@ import { useUserStore } from '~/store/user'
 
 export const sessionKey = 'user-info'
 export const TokenKey = 'authorized-token'
-
+// ly
 /** 获取`token` */
 export function getToken() {
   return Cookies.get(TokenKey)
